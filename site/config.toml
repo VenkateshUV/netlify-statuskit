@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "StatusKit"
+title = "SAM Dashboard Health Status"
 
 [permalinks]
   incidents = "/incidents/:year/:month/:day/:slug/"
