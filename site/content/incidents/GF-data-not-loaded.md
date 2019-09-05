@@ -1,8 +1,8 @@
 +++
 title = "GF-data-not-loaded"
-date = 2019-09-05T14:48:06.000Z
+date = 2019-09-05 14:48:06
 severity = "degraded-performance"
 affectedsystems = ["Data Load"]
 resolved = true 
 +++
-**Update**: We've identified the issue. {{< track "2019-09-05T14:54:00.000Z" >}}
+**Update**: We've identified the issue. {{< track "2019-09-05 14:54:00" >}}
