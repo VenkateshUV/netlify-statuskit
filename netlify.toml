@@ -1,6 +1,9 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  
+[build.environment]
+  TZ="New York City"
 
 [context.deploy-preview]
   command = "npm run build-preview"
