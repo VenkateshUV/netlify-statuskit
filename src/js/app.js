@@ -7,8 +7,8 @@ if (daysSince) {
   const dateSince = new Date(daysSince.getAttribute("data-latest-incident-date"));
   const now = new Date();
 
-  const timeSince = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()) -
-    new Date(dateSince.getUTCFullYear(), dateSince.getUTCMonth(), dateSince.getUTCDate());
+  const timeSince = new Date(now.getFullYear(), now.getMonth(), now.getDate()) -
+    new Date(dateSince.getFullYear(), dateSince.getMonth(), dateSince.getDate());
   const endDays = Math.floor(timeSince / aDay);
 
   const count = endDays === 1 ? `${endDays} day` : `${endDays} days`;
